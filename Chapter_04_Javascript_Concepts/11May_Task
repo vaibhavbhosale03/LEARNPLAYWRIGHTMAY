@@ -1,0 +1,64 @@
+//What is the difference between var, let, and const?
+
+//var is function scoped and allows redeclaration and reassignment.
+// let is block scoped and allows reassignment but not redeclaration.
+// const is block scoped and allows neither redeclaration nor reassignment.
+
+
+//What is the Hoisting in JavaScript?
+
+//"Hoisting is JavaScript's behavior of moving declarations
+// to the top of their scope during the memory creation phase.
+
+// Variables declared with var are initialized as undefined,
+// while let and const remain in the Temporal Dead Zone until initialized.
+// Function declarations are completely hoisted with their definitions."
+
+
+// What is the difference between function scope and block scope? How does it relate to var vs let/const?
+
+// "var is function scoped, meaning it is accessible throughout the entire function.
+// let and const are block scoped, meaning they exist only inside the nearest { } block.
+// This is why let/const provide better control and avoid unintended access or bugs."
+
+
+// Can we change the value of a const variable? Explain with an example.
+
+// "No, a const variable cannot be reassigned after declaration.
+// However, if the const variable stores an object or array,
+// its internal properties/elements can still be modified
+// because only the reference remains constant."
+
+const user = {
+    name: "Vaibhav",
+    city: "Mumbai"
+};
+
+// Allowed
+user.city = "Pune";
+console.log(user);
+
+const name = "Vaibhav";
+// name = "Rahul";   //  Error
+console.log(name); //TypeError: Assignment to constant variable.
+
+
+// Var loop:
+for (var i = 0; i < 3; i++) {
+    setTimeout(() => console.log(i), 100);
+}
+// - var is function-scoped, not block-scoped
+// - There is only ONE i variable shared across all iterations
+// - The loop completes immediately, setting i to 3
+// - When the timeouts execute after 100ms, they all reference the SAME i which is now 3
+// - Output: 3, 3, 3
+
+// Let loop:
+for (let j = 0; j < 3; j++) {
+    setTimeout(() => console.log(j), 100);
+}
+// - let is block-scoped
+// - Each iteration of the for loop creates a NEW binding of j for that block
+// - So each closure captures a different j value (0, 1, 2)
+// - When timeouts execute, they reference their own captured j
+// - Output: 0, 1, 2
