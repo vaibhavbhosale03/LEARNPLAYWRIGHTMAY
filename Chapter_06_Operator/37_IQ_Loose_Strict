@@ -1,0 +1,15 @@
+console.log(0 == "");
+console.log(0 == "0");
+console.log("" == "0");
+
+//console.log("" == 0);   // true  (empty string coerces to 0)
+// console.log(0 == "0");  // true  (string "0" coerces to number 0)
+// console.log("" == false); // true
+// But when both sides are strings, it's a direct string comparison.
+
+console.log(0 == false); //true
+console.log(null == 0); //false
+console.log(null == undefined); //true
+console.log(null === undefined); //false
+
+//in Automation we always use ===
