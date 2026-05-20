@@ -6,3 +6,4 @@ console.log(null === 0);
 let amul = null;
 let milk_required = amul ?? "nandani milk";
 console.log(milk_required);
+

@@ -103,22 +103,22 @@ class CommentsDemo {
     }
 
     /* 5. NESTED-STYLE BLOCK COMMENT (Still a single block comment) */
-    nestedStyleExample() {
-        /*
-         * You cannot actually nest block comments inside each other in Java.
-         * The first "*/" will always terminate the block comment.
-         *
-         * For example, the following would be a SYNTAX ERROR:
-         *
-         *   /* outer start
-         *      /* inner start */
-         *      outer end -> this would be compiled as code! ERROR!
-         *   */
-         *
-         * Workaround: Use multiple single-line comments or a Javadoc-style
-         *             approach if you need to describe nested logic.
-         */
-    }
+    // nestedStyleExample() {
+    //     /*
+    //      * You cannot actually nest block comments inside each other in Java.
+    //      * The first "*/" will always terminate the block comment.
+    //      *
+    //      * For example, the following would be a SYNTAX ERROR:
+    //      *
+    //      *   /* outer start
+    //      *      /* inner start */
+    //      *      outer end -> this would be compiled as code! ERROR!
+    //      *   */
+    //      *
+    //      * Workaround: Use multiple single-line comments or a Javadoc-style
+    //      *             approach if you need to describe nested logic.
+    //      */
+    // }
 
     // =========================================================================
     // 6. FILE HEADER / COPYRIGHT COMMENT (Using Block Comments)
