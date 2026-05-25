@@ -16,4 +16,4 @@ console.log(total); //351
 
 //flat -- flattens nested arrays
 let nested = [[1, 2], [3, 4], [5]];
-console.log(nested.flat());
+console.log(nested.flat()); //[ 1, 2, 3, 4, 5 ]
