@@ -20,6 +20,7 @@
   - [Chapter 08: Switch](#chapter-08-switch)
   - [Chapter 09: User Input](#chapter-09-user-input)
   - [Chapter 10: Loops](#chapter-10-loops)
+  - [Chapter 11: Arrays](#chapter-11-arrays)
 - [VS Code Shortcuts](#vs-code-shortcuts)
 - [Prerequisites](#prerequisites)
 - [How to Run](#how-to-run)
@@ -46,6 +47,7 @@ The repository is organized into progressive chapters covering JavaScript fundam
 - Conditional statements (`if-else`, `switch`)
 - User input handling in Node.js
 - Loops (`for`, `while`, `do...while`)
+- Arrays (creation, access, manipulation, searching, iteration, transformation)
 - VS Code productivity shortcuts
 
 ---
@@ -166,6 +168,18 @@ LEARNPLAYWRIGHTMAY/
 │   ├── 79_IQ.js
 │   ├── 80_IQ.js
 │   ├── 81_IQ.js
+│   └── README.md
+│
+├── Chapter_11_Arrays/
+│   ├── 83_Arrays.js
+│   ├── 84_Arrays.js
+│   ├── 85_Access_Array.js
+│   ├── 86_Arrays_Adding_Remove.js
+│   ├── 87_Adding_Remove2.js
+│   ├── 88_Real_Example.js
+│   ├── 89_Searching.js
+│   ├── 90_Iterate.js
+│   ├── 91_Transform_Array.js
 │   └── README.md
 │
 ├── VSCode_Shortcuts_Windows.md
@@ -349,6 +363,24 @@ All loop constructs in JavaScript for repeating actions and iterating over data.
 
 [Read more](./Chapter_10_Loops/README.md)
 
+### Chapter 11: Arrays
+
+Covers JavaScript arrays — creating, accessing, modifying, searching, iterating, and transforming ordered collections of data.
+
+| File | Description |
+|------|-------------|
+| `83_Arrays.js` | Array basics: empty arrays, initialization, index access, mixed types. |
+| `84_Arrays.js` | Array creation methods: literals, `new Array()`, `Array.of()`, `Array.from()`. |
+| `85_Access_Array.js` | Accessing elements with index and `.at()`, modifying elements. |
+| `86_Arrays_Adding_Remove.js` | Adding and removing elements with `push()`, `pop()`, `unshift()`, `shift()`. |
+| `87_Adding_Remove2.js` | Advanced manipulation using `splice()` for remove, insert, and replace. |
+| `88_Real_Example.js` | Practical browser list example with length, removal, and loop iteration. |
+| `89_Searching.js` | Searching arrays with `indexOf()`, `includes()`, `find()`, `findIndex()`, `findLast()`, `findLastIndex()`. |
+| `90_Iterate.js` | Iteration techniques: `for`, `for...of`, `forEach()`, `for...in`, `entries()`. |
+| `91_Transform_Array.js` | Transforming arrays with `map()`, `filter()`, `reduce()`, and `flat()`. |
+
+[Read more](./Chapter_11_Arrays/README.md)
+
 ---
 
 ## VS Code Shortcuts
@@ -416,6 +448,7 @@ After completing this repository, you will be able to:
 - Build decision-making logic using `if-else` and `switch` statements.
 - Handle user input in Node.js scripts.
 - Use `for`, `while`, and `do...while` loops for repetitive tasks.
+- Create, modify, search, iterate, and transform JavaScript arrays effectively.
 - Navigate VS Code efficiently using keyboard shortcuts.
 - Be fully prepared to start learning **Playwright** for web test automation.
 
