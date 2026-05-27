@@ -180,6 +180,7 @@ LEARNPLAYWRIGHTMAY/
 │   ├── 89_Searching.js
 │   ├── 90_Iterate.js
 │   ├── 91_Transform_Array.js
+│   ├── TodaysLearning.js
 │   └── README.md
 │
 ├── VSCode_Shortcuts_Windows.md
@@ -378,6 +379,7 @@ Covers JavaScript arrays — creating, accessing, modifying, searching, iteratin
 | `89_Searching.js` | Searching arrays with `indexOf()`, `includes()`, `find()`, `findIndex()`, `findLast()`, `findLastIndex()`. |
 | `90_Iterate.js` | Iteration techniques: `for`, `for...of`, `forEach()`, `for...in`, `entries()`. |
 | `91_Transform_Array.js` | Transforming arrays with `map()`, `filter()`, `reduce()`, and `flat()`. |
+| `TodaysLearning.js` | Side-by-side comparison: `splice` vs `slice`, `flat` vs `concat` with practical examples and summary tables. |
 
 [Read more](./Chapter_11_Arrays/README.md)
 
