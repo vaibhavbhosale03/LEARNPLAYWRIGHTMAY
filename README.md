@@ -21,6 +21,8 @@
   - [Chapter 09: User Input](#chapter-09-user-input)
   - [Chapter 10: Loops](#chapter-10-loops)
   - [Chapter 11: Arrays](#chapter-11-arrays)
+  - [Chapter 12: Functions](#chapter-12-functions)
+  - [Chapter 13: Strings](#chapter-13-strings)
 - [VS Code Shortcuts](#vs-code-shortcuts)
 - [Prerequisites](#prerequisites)
 - [How to Run](#how-to-run)
@@ -48,6 +50,8 @@ The repository is organized into progressive chapters covering JavaScript fundam
 - User input handling in Node.js
 - Loops (`for`, `while`, `do...while`)
 - Arrays (creation, access, manipulation, searching, iteration, transformation)
+- Functions (declaration, expression, arrow functions, IIFE, default and rest parameters)
+- Strings (properties, access by index, charAt, charCodeAt)
 - VS Code productivity shortcuts
 
 ---
@@ -180,8 +184,29 @@ LEARNPLAYWRIGHTMAY/
 │   ├── 89_Searching.js
 │   ├── 90_Iterate.js
 │   ├── 91_Transform_Array.js
+│   ├── 92_Arrays.js
+│   ├── 93_Array_Slicing.js
 │   ├── TodaysLearning.js
 │   └── README.md
+│
+├── Chapter_12_Functions/
+│   ├── 96_Functions.js
+│   ├── 97_Type1_Func_Basic_Fn.js
+│   ├── 98_Type2_Func_With_Param_No_Return.js
+│   ├── 99_Type3_Fn_without_Param_Return_Type.js
+│   ├── 100_Type4_Fn_With_Param_With_Return.js
+│   ├── 101_Template_literals.js
+│   ├── 102_Fn_Expression.js
+│   ├── 103_Arrow_Fn.js
+│   ├── 104_Arrow_Fn_Real.js
+│   ├── 105_IIFE.js
+│   ├── 106_Default_Param_fn.js
+│   ├── 107_IQ.js
+│   └── 108_Rest_Param_fn.js
+│
+├── Chapter_13_Strings/
+│   ├── 118_Strings.js
+│   └── 119_String_Properties.js
 │
 ├── VSCode_Shortcuts_Windows.md
 └── README.md
@@ -379,9 +404,40 @@ Covers JavaScript arrays — creating, accessing, modifying, searching, iteratin
 | `89_Searching.js` | Searching arrays with `indexOf()`, `includes()`, `find()`, `findIndex()`, `findLast()`, `findLastIndex()`. |
 | `90_Iterate.js` | Iteration techniques: `for`, `for...of`, `forEach()`, `for...in`, `entries()`. |
 | `91_Transform_Array.js` | Transforming arrays with `map()`, `filter()`, `reduce()`, and `flat()`. |
+| `92_Arrays.js` | Sorting arrays with `sort()`, lexical vs natural sorting, ascending and descending order. |
+| `93_Array_Slicing.js` | Array slicing with `slice()` — extracting portions using positive and negative indices. |
 | `TodaysLearning.js` | Side-by-side comparison: `splice` vs `slice`, `flat` vs `concat` with practical examples and summary tables. |
 
 [Read more](./Chapter_11_Arrays/README.md)
+
+### Chapter 12: Functions
+
+Deep dive into JavaScript functions — from basic declarations to advanced patterns like arrow functions, IIFE, and rest parameters.
+
+| File | Description |
+|------|-------------|
+| `96_Functions.js` | Introduction to function declaration and calling. |
+| `97_Type1_Func_Basic_Fn.js` | Basic function with no parameters and no return value. |
+| `98_Type2_Func_With_Param_No_Return.js` | Function with parameters but no return value. |
+| `99_Type3_Fn_without_Param_Return_Type.js` | Function with no parameters but with a return value. |
+| `100_Type4_Fn_With_Param_With_Return.js` | Function with parameters and a return value. |
+| `101_Template_literals.js` | Using template literals inside functions for dynamic string output. |
+| `102_Fn_Expression.js` | Function expressions: assigning functions to variables. |
+| `103_Arrow_Fn.js` | Arrow functions: concise syntax, implicit returns, single parameter shorthand. |
+| `104_Arrow_Fn_Real.js` | Real-world example: validating HTTP status codes using regular, expression, and arrow functions. |
+| `105_IIFE.js` | Immediately Invoked Function Expressions (IIFE) for isolated execution blocks. |
+| `106_Default_Param_fn.js` | Default parameters for fallback values in function arguments. |
+| `107_IQ.js` | Interview question: formatting test results using functions. |
+| `108_Rest_Param_fn.js` | Rest parameters (`...args`) for handling variable numbers of arguments. |
+
+### Chapter 13: Strings
+
+Working with JavaScript strings: properties, indexing, and built-in methods.
+
+| File | Description |
+|------|-------------|
+| `118_Strings.js` | Introduction to JavaScript strings. |
+| `119_String_Properties.js` | String properties and access: `length`, index access, `charAt()`, `charCodeAt()`. |
 
 ---
 
@@ -451,6 +507,9 @@ After completing this repository, you will be able to:
 - Handle user input in Node.js scripts.
 - Use `for`, `while`, and `do...while` loops for repetitive tasks.
 - Create, modify, search, iterate, and transform JavaScript arrays effectively.
+- Write and call functions using declarations, expressions, and arrow functions.
+- Apply advanced function patterns: IIFE, default parameters, and rest parameters.
+- Work with JavaScript strings: access characters, use `length`, `charAt()`, and `charCodeAt()`.
 - Navigate VS Code efficiently using keyboard shortcuts.
 - Be fully prepared to start learning **Playwright** for web test automation.
 
