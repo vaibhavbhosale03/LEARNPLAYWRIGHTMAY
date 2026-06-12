@@ -1,7 +1,15 @@
 function greetByName(name) {
-    console.log("Hello ", name);
+    console.log("Hi ", name);
 }
 
-greetByName("Vaibhav");
+greetByName("Pramod");
 let result = greetByName("Amit");
-console.log(result); //undefined
+console.log(result);
+
+
+function begger(money) {
+    console.log("Thanks", money);
+}
+
+let returnMesomething = begger(100);
+console.log(returnMesomething);
